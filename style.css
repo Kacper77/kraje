@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Merriweather+Sans');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #0b0c0c;
+    text-align: center;
+}
+
+#country-name {
+    background: #FFF;
+    border: 1px solid #55acee;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+button {
+    border: 1px solid #55acee;
+    width: 20%;
+    background: #43cc6a;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+}
+
+#countries {
+    font-size: 15px;
+}
+
+ul {
+
+    list-style-type: none;
+}
