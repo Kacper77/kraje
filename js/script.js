@@ -18,6 +18,9 @@ $(function() {
         countriesList.empty();
         resp.forEach(function(item) {
             $('<li>').text(item.name).appendTo(countriesList);
+            $('<li>').text(item.region).appendTo(countriesList);
+            $('<li>').text(item.capital).appendTo(countriesList);
         });
     }
+
 });
